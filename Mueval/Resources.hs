@@ -44,10 +44,4 @@ coreSizeLimitHard = zero
 zero = ResourceLimit 0
 
 limits :: [(Resource, ResourceLimits)]
-limits = [ (ResourceStackSize,    ResourceLimits stackSizeLimitSoft stackSizeLimitHard)
-         , (ResourceTotalMemory,  ResourceLimits totalMemoryLimitSoft totalMemoryLimitHard)
-         , (ResourceOpenFiles,    ResourceLimits openFilesLimitSoft openFilesLimitHard)
-         , (ResourceFileSize,     ResourceLimits fileSizeLimitSoft fileSizeLimitHard)
-         , (ResourceDataSize,     ResourceLimits dataSizeLimitSoft dataSizeLimitHard)
-         , (ResourceCoreFileSize, ResourceLimits coreSizeLimitSoft coreSizeLimitHard)
-         , (ResourceCPUTime,      ResourceLimits cpuTimeLimitSoft cpuTimeLimitHard)]
+limits = []
